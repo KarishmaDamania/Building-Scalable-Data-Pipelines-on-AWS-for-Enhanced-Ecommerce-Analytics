@@ -8,6 +8,8 @@ We implement **\*Batch and Real-Time** analytical processes using an e-commerce 
 
 The Real-Time Process focuses on immediate threat detection, like DDoS and Bot attacks, using AWS Lambda, DynamoDB, CloudWatch, and SNS for swift response.
 
+![Alt Text](images/architecture-diagram.png)
+
 ## Data Pipeline
 
 Our data pipeline is a streamlined system for moving and processing data in batches or streams. It encompasses data collection, storage, cleaning, transformation, and the presentation of KPIs, ensuring a robust analytical framework for strategic decision-making.
@@ -112,8 +114,9 @@ Example Output:
 ```bash
 {'ShardId': 'shardId-000000000003', 'SequenceNumber': '49648984969890691415004527695771943445790640323793256498', 'ResponseMetadata': {'RequestId': 'fb51c31c-eaa0-83ee-a56d-dd7810bb5100', 'HTTPStatusCode': 200, ...}}
 {'ShardId': 'shardId-000000000001', 'SequenceNumber': '49648984969846089924607466449490080935064958229956001810', 'ResponseMetadata': {'RequestId': 'c4abe011-240a-bc46-9a97-fe75de116ea8', 'HTTPStatusCode': 200, ...}}
-The successful response indicates that the data records were sent to the respective shards in the Kinesis Data Stream.
 ```
+
+The successful response indicates that the data records were sent to the respective shards in the Kinesis Data Stream.
 
 ## Integrating with Kinesis Data Analytics and Apache Flink
 
