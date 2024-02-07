@@ -4,7 +4,7 @@ In the dynamic realm of e-commerce, analytics serves as the backbone for underst
 
 ## Project Insights
 
-We implement **\*Batch and Real-Time** analytical processes using an e-commerce dataset. The Batch Process harnesses AWS tools to analyze daily visitor trends, cart abandonment, and popular categories for targeted promotions and brand marketing strategies.
+We implement **Batch and Real-Time** analytical processes using an e-commerce dataset. The Batch Process harnesses AWS tools to analyze daily visitor trends, cart abandonment, and popular categories for targeted promotions and brand marketing strategies.
 
 The Real-Time Process focuses on immediate threat detection, like DDoS and Bot attacks, using AWS Lambda, DynamoDB, CloudWatch, and SNS for swift response.
 
